@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* team page */
+
+.about-article p {
+  margin-bottom: 2rem;
+}
+
+.member-wall li .space-y-4 img {
+  border: 1px solid #eeeeee;
+}
+
+.hw-hero {
+  z-index: 0;
+}

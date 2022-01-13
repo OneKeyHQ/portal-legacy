@@ -1,0 +1,17 @@
+name: release
+
+on: workflow_dispatch
+
+jobs:
+  release:
+    runs-on: [self-hosted, linux]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create Release Tag
+        uses: onekeyhq/action-auto-tag@master
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          prefix: release
+      - name: Copy Manifest
+        run: "~/fe/release.sh -d -p ${{ github.event.repository.name }}"
