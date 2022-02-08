@@ -663,7 +663,7 @@
     "pages.download.desktop.mac.version": "Mac 版",
     "pages.download.desktop.should.know": "桌面版功能和移动端可能存在不一致，务必确保从 onekey.so 官网下载。",
     "pages.download.desktop.window.download": "下载 Windows 版",
-    "pages.download.desktop.window.features1": "支持 Windows 7 及以上",
+    "pages.download.desktop.window.features1": "支持 Windows 10 及以上",
     "pages.download.desktop.window.scope": "适用于 Windows 用户",
     "pages.download.desktop.window.version": "Windows 版",
     "pages.download.ios.appstore.download": "Appstore 版暂未上架",
