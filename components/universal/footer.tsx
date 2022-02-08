@@ -203,7 +203,7 @@ export default function Footer() {
                   <li>
                     <a
                       target="_blank"
-                      href="https://jp.mikecrm.com/6lD8P5t"
+                      href="//gr4yl99ujhl.typeform.com/to/kDJuiIQ9"
                       className="text-base text-gray-500 hover:text-gray-900"
                       rel="noreferrer"
                     >
@@ -216,7 +216,7 @@ export default function Footer() {
                   <li>
                     <a
                       target="_blank"
-                      href="https://jp.mikecrm.com/J3Z4FMg"
+                      href="//gr4yl99ujhl.typeform.com/to/ZM0qyr9e"
                       className="text-base text-gray-500 hover:text-gray-900"
                       rel="noreferrer"
                     >
