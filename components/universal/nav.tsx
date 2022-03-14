@@ -88,7 +88,7 @@ export default function Nav() {
             </div>
 
             <nav
-              className={`hidden md:flex flex-wrap lg:space-x-10 ${
+              className={`hidden md:flex flex-wrap lg:space-x-6 ${
                 locale === "en-US" ? "space-x-6" : "space-x-8"
               }`}
             >
