@@ -147,12 +147,6 @@ const MediaItems = (props: MediaItemsProps) => {
 export default function Hero() {
   const { locale } = useLocale();
 
-  const isEnglishLocale = locale === "en-US";
-  const imgClass = classNames("h-10", {
-    "w-53": isEnglishLocale,
-    "w-45": !isEnglishLocale,
-  });
-
   return (
     <div>
       <div className="relative bg-white overflow-hidden">
@@ -205,18 +199,7 @@ export default function Hero() {
           <main className="mx-auto max-w-7xl px-4">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-                <div className="flex sm:justify-center lg:justify-start">
-                  <img
-                    key={new Date().getTime()}
-                    src={`/img/logo_green_text${
-                      isEnglishLocale ? "_en" : ""
-                    }.png`}
-                    alt="OneKey Logo"
-                    className={imgClass}
-                    // layout="fixed"
-                  />
-                </div>
-                <h1>
+                <h1 className="lg:mt-10">
                   <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-7xl capitalize">
                     <FormattedMessage
                       id="pages.home.hero.title"

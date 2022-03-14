@@ -43,12 +43,12 @@ export default function Nav() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
                 <span className="sr-only">OneKey</span>
-                <div className="h-8 w-8 sm:w-10 sm:h-10">
+                <div className="h-8">
                   <img
                     // width={40}
                     // height={40}
-                    className="h-8 w-8 sm:w-10 sm:h-10"
-                    src="/img/logo_green_vector.png"
+                    className="h-8"
+                    src="/img/logo_with_text_green.png"
                     alt="logo"
                     // unoptimized
                   />
