@@ -644,7 +644,7 @@
     "pages.download.checksum.step3": "校验结果; 确保你所下载的APK文件状态显示为 OK",
     "pages.download.checksum.step3_mac": "校验结果; 确保你所下载的DMG文件状态显示为 OK",
     "pages.download.checksum.step3_win": "校验结果; 确保你所生成的校验和与下载文件中对应安装包的校验和相等",
-    "pages.download.checksum.step4": "获取 Onekey 签名公钥 <code>gpg --keyserver hkp:\/\/keyserver.ubuntu.com --recv-keys 1FE64A16589A05A709CC86A93663A830ECAE91EF<\/code>",
+    "pages.download.checksum.step4": "获取 Onekey 签名公钥 <code>gpg --keyserver keys.openpgp.org --recv-keys 074C4CCE3C5BC4F6EFB8FC57AF37AFA7F85AEE7F<\/code>",
     "pages.download.checksum.step5": "校验checksum文件 <code>gpg --verify SHA256SUMS.asc<\/code>",
     "pages.download.checksum.step6": "确认校验结果",
     "pages.download.checksum.step_1": "打开命令行工具并切换至下载文件所在目录，例如：<code>cd Downloads\/<\/code>",

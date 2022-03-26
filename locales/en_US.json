@@ -644,7 +644,7 @@
     "pages.download.checksum.step3": "Checksum result; make sure that the status of the APK file you Downloaded APK file status shows OK",
     "pages.download.checksum.step3_mac": "Checksum result; make sure that the status of the DMG file you Downloaded DMG file status shows OK",
     "pages.download.checksum.step3_win": "Checksum result; Ensure that the checksum produced by the command above matches one of the checksums listed in the checksums file you downloaded earlier",
-    "pages.download.checksum.step4": "Get Onekey signed public key <code>gpg --keyserver hkp:\/\/keyserver.ubuntu.com --recv-keys 1FE64A16589A05A709CC86A93663A830ECAE91EF<\/code>",
+    "pages.download.checksum.step4": "Get Onekey signed public key <code>gpg --keyserver keys.openpgp.org --recv-keys 074C4CCE3C5BC4F6EFB8FC57AF37AFA7F85AEE7F<\/code>",
     "pages.download.checksum.step5": "Verify checksum file <code>gpg --verify SHA256SUMS.asc<\/code>",
     "pages.download.checksum.step6": "Verify checksum result",
     "pages.download.checksum.step_1": "Open a terminal (command line prompt) and Change Directory (cd) to the folder you use for downloads. For example:<code>cd Downloads\/<\/code>",

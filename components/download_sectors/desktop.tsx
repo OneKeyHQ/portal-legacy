@@ -381,22 +381,6 @@ export default function Desktop(props: Props): JSX.Element {
                                         a: (text: any) => (
                                           <a
                                             className="text-sm underline"
-                                            href="https://gpgtools.org/"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                          >
-                                            {text}
-                                          </a>
-                                        ),
-                                      }}
-                                    />
-                                    <FormattedMessage
-                                      id="pages.download.checksum.step_3_2"
-                                      defaultMessage="or see other installation <a>options</a>"
-                                      values={{
-                                        a: (text: any) => (
-                                          <a
-                                            className="text-sm underline"
                                             href="https://www.gnupg.org/download/index.en.html#binary"
                                             target="_blank"
                                             rel="noreferrer"
@@ -412,7 +396,7 @@ export default function Desktop(props: Props): JSX.Element {
                                   <div className="ml-3 text-sm text-gray-700">
                                     <FormattedMessage
                                       id="pages.download.checksum.step4"
-                                      defaultMessage="获取 Onekey 签名公钥 <code>gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 1FE64A16589A05A709CC86A93663A830ECAE91EF</code>"
+                                      defaultMessage="获取 Onekey 签名公钥 <code>gpg --keyserver keys.openpgp.org --recv-keys 074C4CCE3C5BC4F6EFB8FC57AF37AFA7F85AEE7F</code>"
                                       values={{
                                         code: (text: any) => (
                                           <pre className="rounded bg-gray-200 leading-6 px-2 mt-1 truncate">
@@ -545,22 +529,6 @@ export default function Desktop(props: Props): JSX.Element {
                                           a: (text: any) => (
                                             <a
                                               className="text-sm underline"
-                                              href="https://gpgtools.org/"
-                                              target="_blank"
-                                              rel="noreferrer"
-                                            >
-                                              {text}
-                                            </a>
-                                          ),
-                                        }}
-                                      />
-                                      <FormattedMessage
-                                        id="pages.download.checksum.step_3_2"
-                                        defaultMessage="or see other installation <a>options</a>"
-                                        values={{
-                                          a: (text: any) => (
-                                            <a
-                                              className="text-sm underline"
                                               href="https://www.gnupg.org/download/index.en.html#binary"
                                               target="_blank"
                                               rel="noreferrer"
@@ -576,7 +544,7 @@ export default function Desktop(props: Props): JSX.Element {
                                     <div className="ml-3 text-sm text-gray-700">
                                       <FormattedMessage
                                         id="pages.download.checksum.step4_win"
-                                        defaultMessage="获取 Onekey 签名公钥 <code>C:\Program Files\Gnu\GnuPg\gpg.exe --keyserver hkp://keyserver.ubuntu.com --recv-keys 1FE64A16589A05A709CC86A93663A830ECAE91EF</code>"
+                                        defaultMessage="获取 Onekey 签名公钥 <code>C:\Program Files\Gnu\GnuPg\gpg.exe --keyserver keys.openpgp.org --recv-keys 074C4CCE3C5BC4F6EFB8FC57AF37AFA7F85AEE7F</code>"
                                         values={{
                                           code: (text: any) => (
                                             <pre className="rounded bg-gray-200 leading-6 px-2 mt-1 truncate">
@@ -695,7 +663,7 @@ export default function Desktop(props: Props): JSX.Element {
                                 <li>
                                   <p className="ml-3 text-sm text-gray-700">
                                     <FormattedMessage
-                                      id="pages.download.checksum.step3_linux"
+                                      id="pages.download.checksum.step3"
                                       defaultMessage="校验结果; 确保你所下载的AppImage文件状态显示为 OK "
                                     />
                                   </p>
@@ -705,22 +673,6 @@ export default function Desktop(props: Props): JSX.Element {
                                     <FormattedMessage
                                       id="pages.download.checksum.step_3_1"
                                       defaultMessage="If you haven't previously installed GNU Privacy Guard (GPG) on your system, <a>install it now</a>"
-                                      values={{
-                                        a: (text: any) => (
-                                          <a
-                                            className="text-sm underline"
-                                            href="https://gpgtools.org/"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                          >
-                                            {text}
-                                          </a>
-                                        ),
-                                      }}
-                                    />
-                                    <FormattedMessage
-                                      id="pages.download.checksum.step_3_2"
-                                      defaultMessage="or see other installation <a>options</a>"
                                       values={{
                                         a: (text: any) => (
                                           <a
@@ -740,7 +692,7 @@ export default function Desktop(props: Props): JSX.Element {
                                   <div className="ml-3 text-sm text-gray-700">
                                     <FormattedMessage
                                       id="pages.download.checksum.step4"
-                                      defaultMessage="获取 Onekey 签名公钥 <code>gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 1FE64A16589A05A709CC86A93663A830ECAE91EF</code>"
+                                      defaultMessage="获取 Onekey 签名公钥 <code>gpg --keyserver keys.openpgp.org --recv-keys 074C4CCE3C5BC4F6EFB8FC57AF37AFA7F85AEE7F</code>"
                                       values={{
                                         code: (text: any) => (
                                           <pre className="rounded bg-gray-200 leading-6 px-2 mt-1 truncate">
