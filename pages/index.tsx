@@ -13,6 +13,7 @@ import Contact from "../components/home_sectors/contact";
 import Footer from "../components/universal/footer";
 import Header from "../components/header";
 import Roadmap from "../components/home_sectors/roadmap";
+import AlphaEntry from "../components/universal/alpha_entry";
 
 export default function Home() {
   const intl = useIntl();
@@ -37,6 +38,7 @@ export default function Home() {
           })}
         />
       </Header>
+      <AlphaEntry />
       <Nav />
       <Hero />
       <LogoClouds />
