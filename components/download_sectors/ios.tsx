@@ -173,13 +173,15 @@ export default function Ios(props: { version?: string }) {
                   <div className="rounded-md shadow">
                     {/* Update to link in the future */}
                     <a
-                      href="https://apps.apple.com/us/app/onekey-wallet/id1568432215"
-                      target="_blank"
+                      // href="https://apps.apple.com/us/app/onekey-wallet/id1568432215"
+                      // target="_blank"
+                      href="javscript: void 0"
                       rel="noreferrer"
-                      className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-700"
+                      className="opacity-50 cursor-not-allowed flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-700"
                       aria-describedby="tier-standard"
                     >
-                      <FormattedMessage id="pages.download.ios.appstore.version" />
+                      {/* <FormattedMessage id="pages.download.ios.appstore.version" /> */}
+                      <FormattedMessage id="action__app_store_in_review" />
                     </a>
                   </div>
                 </div>
