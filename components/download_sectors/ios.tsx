@@ -153,7 +153,7 @@ export default function Ios(props: { version?: string }) {
                         />
                       </a>
                     </li>
-                    <li className="flex items-center">
+                    {/* <li className="flex items-center">
                       <div className="flex-shrink-0">
                         <QuestionMarkCircleIcon className="h-6 w-6 text-yellow-500" />
                       </div>
@@ -168,20 +168,18 @@ export default function Ios(props: { version?: string }) {
                           defaultMessage="如何打开发现页"
                         />
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                   <div className="rounded-md shadow">
                     {/* Update to link in the future */}
                     <a
-                      // href="https://apps.apple.com/us/app/onekey-wallet/id1568432215"
-                      // target="_blank"
-                      href="javscript: void 0"
+                      href="https://apps.apple.com/us/app/onekey-open-source-wallet/id1609559473"
+                      target="_blank"
                       rel="noreferrer"
-                      className="opacity-50 cursor-not-allowed flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-700"
+                      className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-700"
                       aria-describedby="tier-standard"
                     >
-                      {/* <FormattedMessage id="pages.download.ios.appstore.version" /> */}
-                      <FormattedMessage id="action__app_store_in_review" />
+                      <FormattedMessage id="pages.download.ios.appstore.version" />
                     </a>
                   </div>
                 </div>

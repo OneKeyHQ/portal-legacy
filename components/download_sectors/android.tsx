@@ -127,7 +127,7 @@ export default function Android(props: {
                   <div className="rounded-md shadow">
                     <a
                       target="_blank"
-                      href="https://play.google.com/store/apps/details?id=com.bixin.wallet.mainnet"
+                      href="https://play.google.com/store/apps/details?id=so.onekey.app.wallet"
                       rel="noreferrer"
                       className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-700"
                       aria-describedby="tier-standard"
@@ -172,17 +172,6 @@ export default function Android(props: {
                         <FormattedMessage
                           id="pages.download.android.sdk.features1"
                           defaultMessage="功能全面"
-                        />
-                      </p>
-                    </li>
-                    <li className="flex items-start">
-                      <div className="flex-shrink-0">
-                        <Tick />
-                      </div>
-                      <p className="ml-3 text-base text-gray-700">
-                        <FormattedMessage
-                          id="pages.download.android.sdk.features2"
-                          defaultMessage="更新及时，支持热更新"
                         />
                       </p>
                     </li>
